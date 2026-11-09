@@ -1,0 +1,8 @@
+{
+  "test": "Verify that the login button is visible on the page",
+  "status": "PASS",
+  "reason": "The Sign in (login) button/link is visible on the page in the navigation bar.",
+  "evidence": "Sign in",
+  "steps": [],
+  "seconds": 125.2
+}

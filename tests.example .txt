@@ -1,0 +1,6 @@
+# One test per line. Either "test text" (uses --url) or "url || test text".
+# Edit these after opening the site yourself, so the wording matches what the site really has.
+Log in as a customer and verify the dashboard is shown
+Verify that the login button is visible on the page
+https://www.saucedemo.com || Log in as standard_user with password secret_sauce and verify the products page is shown
+https://www.saucedemo.com || Try to log in with a wrong password and verify an error message is shown

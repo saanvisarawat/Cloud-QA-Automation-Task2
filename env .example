@@ -1,0 +1,4 @@
+# Copy this file to .env and put your own key in it. Never commit .env.
+GEMINI_API_KEY=your-key-here
+# Optional: override the model (check the exact name in Google AI Studio)
+# GEMINI_MODEL=gemini-3.8-flash
