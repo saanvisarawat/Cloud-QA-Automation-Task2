@@ -1,0 +1,8 @@
+{
+  "test": "Verify that the Customer Login link is visible in the navigation",
+  "status": "ERROR",
+  "reason": "The model call failed 3 times: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', ",
+  "evidence": "",
+  "steps": [],
+  "seconds": 25.7
+}

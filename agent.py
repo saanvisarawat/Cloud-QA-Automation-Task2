@@ -196,8 +196,10 @@ async def observe(session: Session) -> Observation:
                 next_id += len(items)
                 texts.append(text)
             return Observation(page.url, await page.title(), squash(" ".join(texts)), elements, handles)
-        except Exception as e:                                  
+        except Exception as e: 
+            last_error = e                                 
             await settle(page)
+            
     raise RuntimeError(f"Could not read the page: {last_error}")
 
 
