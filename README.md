@@ -15,7 +15,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-Create your `.env` file by copying the tessmplate (`copy .env.example .env` on Windows, `cp .env.example .env` on Mac/Linux) and put your key in it:
+Create your `.env` file by copying the template (`copy .env.example .env` on Windows, `cp .env.example .env` on Mac/Linux) and put your key in it:
 
 ```
 GEMINI_API_KEY=your_key_here
